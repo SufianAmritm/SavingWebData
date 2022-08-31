@@ -1,0 +1,55 @@
+                                                                             Placing the script:
+(External)
+1. defer: In case our scripts depends on each other. <script src="script.js" defer></script>
+2.async: If scripts dont depend on each other.
+<script async src="js/vendor/jquery.js"></script>
+
+<script async src="js/script2.js"></script>
+
+<script async src="js/script3.js"></script>
+
+3.At the end.
+
+(Internal)
+4. Using DOMcontentLoaded
+document.addEventListener('DOMContentLoaded', () => {
+  // …
+});
+                                                                       //     Event Listener//
+addEventListener('event'(without on etc) , function);
+                                           //                               Create Element
+.createElement("element");
+                                            //                        Appending the element to DOM
+.appendChild("new element");
+                                              //               Generating a Random Number
+const randomnumber = Math.floor(Math.random() );
+                                                //             Deleting or disabling elements
+.disabled; .delete;
+                            //                                  Determine the type of a variable
+typeof variablename;
+                                //                                      Number Tyoe
+In Javascript We only have "Number" type for both integers and decimals and floats;
+                        //                          Fixing the Number of Decimals
+.toFixed("number of decimals")
+                       //                                        Convert a string into a number
+const number = "73";  const truenumber   = Number(number); 
+//                                                         Arithmetic operators
+Arithmetic operators are the basic operators that we use to do sums in JavaScript:
+
+Operator	Name              	Purpose	Example
++	Addition	                Adds two numbers together.	6 + 9
+-	Subtraction	Subtracts the right number from the left.	20 - 15
+*	Multiplication	Multiplies two numbers together.	3 * 7
+/	Division	               Divides the left number by the right.	10 / 5
+%	Remainder (sometimes called modulo)	      Returns the remainder left over after you've divided the left number into a number of integer portions equal to the right number.
+
+8 % 3 (returns 2, as three goes into 8 twice, leaving 2 left over).
+
+**	Exponent	Raises a base number to the exponent power, that is, the base number multiplied by itself, exponent times.	5 ** 2 (returns 25, which is the same as 5 * 5).
+                             //                    Escape Sequences
+To use quotes use \
+                           //                         Concatenation
+It means to join ..; We usualy use "Template Literals" to do this ` ${variable} or ${variable} `   also it respects line breaks.
+                               //            Number to string and String to number
+Number()        /    toString()
+    
