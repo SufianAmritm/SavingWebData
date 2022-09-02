@@ -1,0 +1,5 @@
+Use of Variables in Css is good for code reuseablity and efficient.
+To make a variable
+Use root {
+--primary-color: ;
+}
